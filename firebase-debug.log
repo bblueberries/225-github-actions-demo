@@ -1,0 +1,49 @@
+[debug] [2025-04-06T10:39:08.553Z] ----------------------------------------------------------------------
+[debug] [2025-04-06T10:39:08.555Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\Desktop\225-github-actions-demo\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-04-06T10:39:08.556Z] CLI Version:   14.1.0
+[debug] [2025-04-06T10:39:08.556Z] Platform:      win32
+[debug] [2025-04-06T10:39:08.556Z] Node Version:  v20.13.1
+[debug] [2025-04-06T10:39:08.556Z] Time:          Sun Apr 06 2025 17:39:08 GMT+0700 (เวลาอินโดจีน)
+[debug] [2025-04-06T10:39:08.556Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-06T10:39:08.730Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-06T10:39:08.731Z] > authorizing via signed-in user (tata10433@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2025-04-06T10:39:08.738Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-06T10:39:08.738Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-06T10:39:08.739Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-04-06T10:39:08.742Z] [hub] writing locator at C:\Users\USER\AppData\Local\Temp\hub-fireship-lesson-tata.json
+[debug] [2025-04-06T10:39:08.756Z] Checked if tokens are valid: true, expires at: 1743939452810
+[debug] [2025-04-06T10:39:08.756Z] Checked if tokens are valid: true, expires at: 1743939452810
+[debug] [2025-04-06T10:39:08.757Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/fireship-lesson-tata/sites 
+[debug] [2025-04-06T10:39:09.479Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/fireship-lesson-tata/sites 200
+[debug] [2025-04-06T10:39:09.480Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/fireship-lesson-tata/sites {"sites":[{"name":"projects/fireship-lesson-tata/sites/fireship-lesson-tata","defaultUrl":"https://fireship-lesson-tata.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-04-06T10:39:09.480Z] Checked if tokens are valid: true, expires at: 1743939452810
+[debug] [2025-04-06T10:39:09.480Z] Checked if tokens are valid: true, expires at: 1743939452810
+[debug] [2025-04-06T10:39:09.480Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lesson-tata/webApps/-/config [none]
+[debug] [2025-04-06T10:39:10.008Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lesson-tata/webApps/-/config 200
+[debug] [2025-04-06T10:39:10.008Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lesson-tata/webApps/-/config {"projectId":"fireship-lesson-tata","storageBucket":"fireship-lesson-tata.firebasestorage.app","apiKey":"AIzaSyBjLDSImfArl1xfZhyzS3NG4fpXse2mjKA","authDomain":"fireship-lesson-tata.firebaseapp.com","messagingSenderId":"217346906250"}
+[debug] [2025-04-06T10:39:10.013Z] Checked if tokens are valid: true, expires at: 1743939452810
+[debug] [2025-04-06T10:39:10.013Z] Checked if tokens are valid: true, expires at: 1743939452810
+[debug] [2025-04-06T10:39:10.014Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lesson-tata [none]
+[debug] [2025-04-06T10:39:10.277Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lesson-tata 200
+[debug] [2025-04-06T10:39:10.277Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lesson-tata {"projectId":"fireship-lesson-tata","projectNumber":"217346906250","displayName":"fireship-lesson-tata","name":"projects/fireship-lesson-tata","resources":{"hostingSite":"fireship-lesson-tata"},"state":"ACTIVE","etag":"1_10790f02-3bf8-4f36-8939-90cca02c0765"}
+[info] i  hosting[fireship-lesson-tata]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[fireship-lesson-tata]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[debug] [2025-04-06T10:39:10.293Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
