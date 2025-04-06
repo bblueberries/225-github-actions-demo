@@ -11,7 +11,7 @@ const dayOfTheWeek = (date = new Date()) => {
 
   return days[date.getDay()];
 };
-
+//hello change
 const monthOfTheYear = (date = new Date()) => {
   const month = [
     "January",
